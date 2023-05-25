@@ -1,0 +1,168 @@
+:root {
+  --blue1: #800080;
+}
+#container {
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+#div-1 {
+  padding: 10px;
+  margin: auto;
+  height: 80%;
+  display: grid;
+  width: 40%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+#div-2 {
+  line-height: 40px;
+  padding: 5px;
+  margin: auto;
+  margin-top: 23px;
+  width: 30%;
+  border-radius: 13px;
+  display: grid;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.edch {
+  border: 1px solid #cbcdd4;
+  padding: 10px 0px 10px 0px;
+  width: 60%;
+  margin: auto;
+  margin-top: 5px;
+  letter-spacing: 7px;
+  border-radius: 13px;
+  color: black;
+  font-weight: bold;
+}
+.wallet-balance {
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+#card-container {
+  width: 358px;
+  height: 228px;
+  border-radius: 20px;
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  color: azure;
+}
+#skills {
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: fit-content;
+  padding: 10px;
+  color: azure;
+}
+#skills div {
+  margin-left: 25px;
+  border: 1px solid whitesmoke;
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: 10px;
+  color: azure;
+}
+#name-date{
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 10px;
+}
+#name-date h4{
+    font-weight: bold;
+}
+.courses-en{
+    display: flex;
+    margin-left:55px;
+}
+#refferal-amount{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:start;
+    align-content: start;
+    align-items: center;
+    margin-top: 20px;
+
+}
+#cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+  margin-top: 30px;
+  /* border: 1px solid; */
+}
+.friends-who{
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
+  display: flex;
+align-items: start;
+color:#800080;
+margin-top: 50px;
+}
+@media only screen and (max-width: 1148px) and (min-width: 300px)  {
+  
+  #cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+   margin: auto;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  #div-1 {
+    padding: 10px;
+    margin: auto;
+    height: 80%;
+    display: grid;
+    width: 100%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 16px;
+   
+    color: #800080;
+  }
+  #div-2 {
+    line-height: 40px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 23px;
+    width: 80%;
+    border-radius: 13px;
+    display: grid;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .edch {
+    border: 1px solid #cbcdd4;
+    padding: 10px 0px 10px 0px;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    letter-spacing: 7px;
+    border-radius: 13px;
+    color: black;
+    font-weight: bold;
+  }
+
+}

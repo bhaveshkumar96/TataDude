@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Components/Navbar';
+import Friends from './pages/Friends';
 
 function App() {
   return (
     <div className="App">
-      <h1>TataDude</h1>
+      {/* <Navbar/> */}
+    {/* <Friends/> */}
     </div>
   );
 }
