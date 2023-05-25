@@ -1,6 +1,6 @@
 :root {
-    --blue1: linear-gradient(270deg, #800080 0%, #ED4C5C 100%);
-  }
+  --blue1: linear-gradient(270deg, #800080 0%, #ed4c5c 100%);
+}
 #cont-1st-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -14,48 +14,152 @@
   box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
-#cont-1st-div  p{
-    font-size: 14px;
-    font-family:sans-serif;
+#cont-1st-div p {
+  font-size: 14px;
+  font-family: sans-serif;
 }
-#wid-button{
+#wid-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 10px;
+  color: #ffffff;
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  left: 153px;
+  top: 119px;
+  margin-left: 170px;
+  background: #800080;
+  border-radius: 20px;
+}
+#cont-1st-div h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+#cont-2nd-div div {
+  margin-top: 10px;
+  border: 1px solid #800080;
+  letter-spacing: 15px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+#cont-2nd-div h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #800080;
+}
+#how-container {
+  width: 60%;
+  margin: auto;
+  margin-left: 160px;
+  /* border: 1px solid red; */
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#how-container div {
+  display: grid;
+  justify-items: start;
+  /* border: 1px solid; */
+}
+.child-div {
+  /* border: 1px solid red !important; */
+  display: flex !important;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.secondP {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.firstP {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.svgDiv {
+  background: rgba(217, 217, 217, 0.25);
+  padding: 20px;
+  border-radius: 60%;
+}
+
+#bottom {
+  margin-top: 50px;
+  display: grid;
+  justify-content: start;
+  gap: 20px;
+  color: #800080;
+  font-weight: 500;
+  font-size: 16px;
+}
+.how-does{
+    font-weight: 600;
+    font-size: 24px;
+    color: #800080;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 8px 16px;
-    gap: 10px;
-    color: #ffffff;
-    position: absolute;
-    width: 180px;
-    height: 40px;
-    left: 153px;
-    top: 119px;
-    margin-left: 170px;
-    background: #800080;
-    border-radius: 20px;
-
-
+    align-items: start;
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
-#cont-1st-div h2{
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 48px;
-color: #000000;
+.firstPBottom{
+    margin-left: 160px;
+}
+@media only screen and (max-width: 1148px) and (min-width: 300px)  {
+    #how-container {
+        width: max-content;
+        /* border: 1px solid red; */
+        margin: auto;
+        gap: 30px;
+        display: grid;
+       justify-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        
+      }
+    #container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        width: max-content;
+    }
+    #cont-1st-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+        width: 486px;
+        height: 188px;
+        /* left: 187px; */
+        top: 179px;
+        background: #ffffff;
+        box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+      }
+      #cont-2nd-div{
+        width: 100%;
+        
+      }
+      #cont-2nd-div h2{
+       align-items: start;
+        
+      }
+      .child-div {
+        display: grid;
+        border: 1px solid blueviolet;
+       
+      }
 
-}
-#cont-2nd-div div{
-    margin-top: 10px;
-    border: 1px solid #800080;
-    letter-spacing: 15px;
-    padding: 10px 40px 10px 40px;
-    border-radius: 8px;
-    font-weight: bold;
-}
-#cont-2nd-div h2{
-    font-style: normal;
-font-weight: 600;
-font-size: 24px;
-color: #800080;
-
-}
+  }
