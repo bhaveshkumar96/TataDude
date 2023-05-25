@@ -1,21 +1,17 @@
-import { HStack, Image, Stack, Text } from "@chakra-ui/react";
-import { FaUserCircle } from "react-icons/fa";
+import React from 'react';
+import "../styles/Navbar.css";
+import { BiUserCircle } from 'react-icons/bi';
 const Navbar = () => {
   return (
-    <HStack width={"100%"} height={"25px"} display={"flex"} justifyContent={"space-between"} m={"0px 15px 0px 15px"}>
-      <Stack width={"fit-content"}>
-        <Image
-          src="https://www.tutedude.com/refundassets/Tutedude.png"
-          alt="tutedude"
-          w={"35%"}
-        />
-      </Stack>
-
-      <Stack>
-        <FaUserCircle />
-        <Text>Profile Name</Text>
-      </Stack>
-    </HStack>
+    <nav>
+      <div className="navbar-logo">
+        <img src="https://www.tutedude.com/refundassets/Tutedude.png" alt="logo" />
+      </div>
+      <div className="navbar-menu">
+       
+        <h2>Profile Name</h2>
+      </div>
+    </nav>
   );
 };
 

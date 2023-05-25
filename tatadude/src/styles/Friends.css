@@ -25,7 +25,7 @@
   padding: 5px;
   margin: auto;
   margin-top: 23px;
-  width: 30%;
+  width: 40%;
   border-radius: 13px;
   display: grid;
   justify-content: center;
@@ -100,7 +100,7 @@ h3 {
     justify-content:start;
     align-content: start;
     align-items: center;
-    margin-top: 20px;
+   
 
 }
 #cards{

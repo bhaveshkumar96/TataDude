@@ -29,7 +29,7 @@
   width: 180px;
   height: 40px;
   left: 153px;
-  top: 119px;
+  top: 300px;
   margin-left: 170px;
   background: #800080;
   border-radius: 20px;
@@ -137,16 +137,15 @@
     }
     #cont-1st-div {
         display: grid;
+        margin: auto;
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
         padding: 15px;
-        width: 486px;
-        height: 188px;
-        /* left: 187px; */
-        top: 179px;
         background: #ffffff;
         box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
         border-radius: 20px;
+        margin-bottom: 25px;
+        width: 486px;
+  height: 250px;
       }
       #cont-2nd-div{
         width: 100%;
@@ -158,8 +157,24 @@
       }
       .child-div {
         display: grid;
-        border: 1px solid blueviolet;
+        /* border: 1px solid blueviolet; */
        
+      }
+      #wid-button {
+        display: flex;
+        flex-direction: row;
+
+      
+       
+        color: #ffffff;
+        position: absolute;
+        width: 180px;
+        height: 40px;
+        left: 153px;
+        top: 330px;
+        margin-left: px;
+        background: #800080;
+        border-radius: 20px;
       }
 
   }

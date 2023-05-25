@@ -1,7 +1,9 @@
 import "../styles/RefferalPage.css";
+import { Link } from "react-router-dom";
 const RefferalPage = () => {
   return (
     <div>
+     <p style={{textAlign:"start",marginLeft:"30px"}}>UI/UX > Refer & Earn </p>
       <div id="container">
         <div id="cont-1st-div">
           <div>
@@ -197,7 +199,7 @@ const RefferalPage = () => {
       </div>
 
       <div id="bottom">
-        <div className="firstPBottom">Friends Who Enrolled</div>
+        <div className="firstPBottom"> <Link to={"/friends"}>Friends Who Enrolled</Link>  </div>
         <div className="firstPBottom">Terms & Conditions</div>
       </div>
     </div>

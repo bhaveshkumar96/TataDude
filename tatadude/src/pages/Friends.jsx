@@ -4,6 +4,7 @@ const Friends = () => {
   return (
 
     <div>
+      <p style={{textAlign:"start",marginLeft:"30px"}}>UI/UX > Refer & Earn > Friends Referred </p>
     <div id="container">
       <div id="div-1">
         <h1>Your Referral Code</h1>
